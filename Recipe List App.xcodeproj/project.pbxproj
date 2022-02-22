@@ -16,6 +16,7 @@
 		5A0EC34F27C29D0D00383335 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0EC34E27C29D0D00383335 /* RecipeModel.swift */; };
 		5A0EC35127C2AEEB00383335 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0EC35027C2AEEB00383335 /* DataService.swift */; };
 		5A5A5F4727C2C83C00E9194E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */; };
+		5AB200CC27C4648D0021FB86 /* RecipeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5A0EC34E27C29D0D00383335 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		5A0EC35027C2AEEB00383335 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				5A0EC33727C2982600383335 /* Recipe_List_App.swift */,
+				5A0EC34527C29A6700383335 /* Views */,
+				5A0EC34627C29A7400383335 /* ViewModels */,
+				5A0EC34727C29A7B00383335 /* Models */,
 				5A0EC34927C29A8900383335 /* Services */,
 				5A0EC34827C29A8400383335 /* Data */,
-				5A0EC34727C29A7B00383335 /* Models */,
-				5A0EC34627C29A7400383335 /* ViewModels */,
-				5A0EC34527C29A6700383335 /* Views */,
 				5A0EC33B27C2982700383335 /* Assets.xcassets */,
 				5A0EC33D27C2982700383335 /* Preview Content */,
 			);
@@ -84,6 +86,7 @@
 		5A0EC34527C29A6700383335 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */,
 				5A0EC33927C2982600383335 /* RecipeListView.swift */,
 				5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */,
 			);
@@ -197,6 +200,7 @@
 				5A5A5F4727C2C83C00E9194E /* RecipeDetailView.swift in Sources */,
 				5A0EC34F27C29D0D00383335 /* RecipeModel.swift in Sources */,
 				5A0EC33A27C2982600383335 /* RecipeListView.swift in Sources */,
+				5AB200CC27C4648D0021FB86 /* RecipeMainView.swift in Sources */,
 				5A0EC33827C2982600383335 /* Recipe_List_App.swift in Sources */,
 				5A0EC35127C2AEEB00383335 /* DataService.swift in Sources */,
 			);
