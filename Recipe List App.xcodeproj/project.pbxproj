@@ -17,6 +17,7 @@
 		5A5A5F4727C2C83C00E9194E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */; };
 		5AB200CC27C4648D0021FB86 /* RecipeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */; };
 		5AB200E827C6E0D50021FB86 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AB200E727C6E0D50021FB86 /* recipes.json */; };
+		5AB200EA27C6E40B0021FB86 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB200E927C6E40B0021FB86 /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMainView.swift; sourceTree = "<group>"; };
 		5AB200E727C6E0D50021FB86 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = ../Models/recipes.json; sourceTree = "<group>"; };
+		5AB200E927C6E40B0021FB86 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */,
+				5AB200E927C6E40B0021FB86 /* RecipeFeaturedView.swift */,
 				5A0EC33927C2982600383335 /* RecipeListView.swift */,
 				5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */,
 			);
@@ -202,6 +205,7 @@
 				5A0EC33A27C2982600383335 /* RecipeListView.swift in Sources */,
 				5AB200CC27C4648D0021FB86 /* RecipeMainView.swift in Sources */,
 				5A0EC33827C2982600383335 /* Recipe_List_App.swift in Sources */,
+				5AB200EA27C6E40B0021FB86 /* RecipeFeaturedView.swift in Sources */,
 				5A0EC35127C2AEEB00383335 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

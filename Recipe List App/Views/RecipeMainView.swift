@@ -12,7 +12,7 @@ struct RecipeMainView: View {
         
         TabView {
             
-            Text("Feature site")
+            RecipeFeaturedView()
                 .tabItem {
                     Image(systemName: "star.fill")
                     Text("Featured")
@@ -27,7 +27,6 @@ struct RecipeMainView: View {
                 .tag(1)
             
         }
-        
     }
 }
 
