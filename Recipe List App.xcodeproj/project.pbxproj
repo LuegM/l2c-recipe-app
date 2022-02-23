@@ -11,12 +11,12 @@
 		5A0EC33A27C2982600383335 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0EC33927C2982600383335 /* RecipeListView.swift */; };
 		5A0EC33C27C2982700383335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0EC33B27C2982700383335 /* Assets.xcassets */; };
 		5A0EC33F27C2982800383335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0EC33E27C2982800383335 /* Preview Assets.xcassets */; };
-		5A0EC34B27C29B2C00383335 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A0EC34A27C29B2C00383335 /* recipes.json */; };
 		5A0EC34D27C29B8800383335 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0EC34C27C29B8800383335 /* Recipe.swift */; };
 		5A0EC34F27C29D0D00383335 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0EC34E27C29D0D00383335 /* RecipeModel.swift */; };
 		5A0EC35127C2AEEB00383335 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0EC35027C2AEEB00383335 /* DataService.swift */; };
 		5A5A5F4727C2C83C00E9194E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */; };
 		5AB200CC27C4648D0021FB86 /* RecipeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */; };
+		5AB200E827C6E0D50021FB86 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AB200E727C6E0D50021FB86 /* recipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +25,12 @@
 		5A0EC33927C2982600383335 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		5A0EC33B27C2982700383335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A0EC33E27C2982800383335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5A0EC34A27C29B2C00383335 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		5A0EC34C27C29B8800383335 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		5A0EC34E27C29D0D00383335 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		5A0EC35027C2AEEB00383335 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5A5A5F4627C2C83C00E9194E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		5AB200CB27C4648D0021FB86 /* RecipeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMainView.swift; sourceTree = "<group>"; };
+		5AB200E727C6E0D50021FB86 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = ../Models/recipes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 		5A0EC34827C29A8400383335 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				5A0EC34A27C29B2C00383335 /* recipes.json */,
+				5AB200E727C6E0D50021FB86 /* recipes.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -184,8 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A0EC33F27C2982800383335 /* Preview Assets.xcassets in Resources */,
-				5A0EC34B27C29B2C00383335 /* recipes.json in Resources */,
 				5A0EC33C27C2982700383335 /* Assets.xcassets in Resources */,
+				5AB200E827C6E0D50021FB86 /* recipes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
